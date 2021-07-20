@@ -1,0 +1,153 @@
+body {
+    margin: 0px;
+}
+
+/* Body Header Section */
+
+#body-header {
+    height: 65vh;
+    opacity: 0.8;
+    background-image: url(images/macbook_mouse.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.horizontal-list {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.horizontal-list li {
+    display: inline-block;
+    margin: 0px 32px 32px 0px;
+    padding-top: 24px;
+}
+
+.horizontal-list li a {
+    text-decoration: none;
+}
+
+.nav-menu li a {
+    transition: color 0.5s, border-bottom 4s;
+}
+
+.nav-menu li a:hover {
+    color: lightgray;
+    border-bottom: 1px solid white;
+}
+
+#social-container {
+    margin-top: 10vh;
+}
+
+#my-name {
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.social-icons li a i {
+    padding: 10px;
+    margin: 4px;
+    font-size: 1rem;
+    border-radius: 50%;
+}
+
+.social-icons li a i:hover {
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+    text-decoration: none;
+}
+
+/* About Section */
+
+#about {
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+.my-image {
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -82px;
+}
+
+.my-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 1px solid white;
+    box-shadow: 1px 1px 10px 2px rgb(165, 161, 161);
+}
+
+#about-para {
+    padding: 10px;
+    width: 70%;
+    text-align: justify;
+    color: grey;
+    line-height: 28px;
+    font-size: 1.1rem;
+    margin: auto;
+}
+
+/* Common CSS Classes for Sections */
+
+section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+section:nth-child(2n) {
+    background-color: lightgray;
+}
+
+section:nth-child(2n+1) {
+    background-color: white;
+}
+
+
+/* Skills Section */
+
+.section-heading {
+    width: auto;
+    padding: 20px 10px 10px;
+    margin: 10px auto;
+    font-weight: 400;
+}
+
+.section-heading span {
+    font-size: 40px;
+    color: #2857a4;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right: 0.5rem;
+}
+
+.skills-display {
+
+}
+
+
+/* Common CSS Classes */
+
+.text-center {
+    text-align: center;
+}
+
+.color-white {
+    color: #fff;
+}
+
+.font-family {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text-highlight {
+    color: #2857a4;
+    font-weight: 600;
+}
